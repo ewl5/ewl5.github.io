@@ -1,9 +1,9 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #faf7f2;
+    color: #333333;
 }
 
 .container {
@@ -14,10 +14,11 @@ body {
 
 /* Header Styles */
 header {
+    font-family: 'Inter', sans-serif;
     text-align: center;
     padding: 50px 0;
-    background-color: #4CAF50;
-    color: white;
+    background-color: #3a3a3a;
+    color: #FFFFFF;
 }
 
 header h1 {
@@ -29,7 +30,7 @@ header h1 {
 section {
     margin: 20px 0;
     padding: 20px;
-    background-color: white;
+    background-color: #faf7f2;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -37,7 +38,7 @@ section {
 section h2 {
     font-size: 2em;
     margin-bottom: 10px;
-    color: #4CAF50;
+    color: #3a3a3a;
 }
 
 /* About Me Section */
