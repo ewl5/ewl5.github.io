@@ -1,46 +1,42 @@
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Header Styles */
-header {
-    text-align: center;
-    padding: 50px 0;
-    background-color: #4CAF50;
-    color: white;
-}
-
 header h1 {
+    font-size: 56;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f2f5;
+    color: #0a0a23;
     margin: 0;
-    font-size: 2.5em;
+
 }
 
-/* Section Styles */
+html,
+body {
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    background-color:#faf7f2;
+    color: #333333;
+    padding: 0;
+    margin: 0;
+}
+
 section {
-    margin: 20px 0;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #faf7f2;
+    padding: 0;
+    margin: 0;
 }
 
 section h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #4CAF50;
+    font-size: 44;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding: 5px 0;
+    background-color: #3a3a3a;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
 }
 
-/* About Me Section */
 .about-me img {
     float: left;
     margin-right: 20px;
@@ -49,80 +45,13 @@ section h2 {
     height: 150px;
 }
 
-.about-me p {
-    text-align: justify;
-}
-
-/* Projects Section */
-.projects ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.projects li {
-    margin: 10px 0;
-}
-
-.projects a {
-    color: #4CAF50;
-    text-decoration: none;
-}
-
-.projects a:hover {
-    text-decoration: underline;
-}
-
-/* Skills Section */
-.skills ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.skills li {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-}
-
-/* Experience Section */
-.experience ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.experience li {
-    margin: 10px 0;
-}
-
-/* Hobbies Section */
-.hobbies ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.hobbies li {
-    margin: 10px 0;
-}
-
-/* Education Section */
-.education ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.education li {
-    margin: 10px 0;
-}
-
-/* Footer Styles */
-footer {
+footer,
+#contact,
+#footer-heading {
     text-align: center;
-    padding: 20px 0;
-    background-color: #333;
+    background-color: #333333;
     color: white;
-    margin-top: 20px;
+    margin-bottom: 0;
+    bottom: 0;
+    padding: 2px
 }
