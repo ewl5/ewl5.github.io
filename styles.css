@@ -9,6 +9,11 @@ header h1 {
 
 }
 
+.icon {
+    max-width:32px;
+    max-height:32px;
+    margin-right: 10px;
+}
 html,
 body {
     height: 100%;
@@ -43,6 +48,28 @@ section h2 {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+.education-section {
+    display: grid;                   /* Enables grid layout */
+    grid-template-columns: 1fr 1fr;  /* Creates two equal-width columns */
+    gap: 10px;                       /* Space between columns */
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.education-left, .education-right {
+    padding: 10px;
+}
+
+.education-left h3, .education-right h3 {
+    margin: 0 0 10px;  /* Adds spacing between the heading and list */
+}
+
+.education-left ul, .education-right ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
 }
 
 footer,
