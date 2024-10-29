@@ -14,6 +14,7 @@ header h1 {
     max-height:32px;
     margin-right: 10px;
 }
+
 html,
 body {
     height: 100%;
@@ -48,6 +49,20 @@ section h2 {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+.horizontal-list {
+    display: flex;                  /* Makes the list horizontal */
+    gap: 20px;                      
+    padding: 0;
+    margin: 0;
+    list-style-type: none;          /* Removes default bullet points */
+    flex-wrap: wrap;
+}
+
+.horizontal-list li {
+    display: flex;                  /* Aligns icon and text horizontally */
+    align-items: left;   
 }
 
 .education-section {
