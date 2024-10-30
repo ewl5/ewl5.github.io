@@ -85,7 +85,7 @@ section h2 {
 }
 
 .education-left h3, .education-right h3 {
-    margin: 0 0 10px;  /* Adds spacing between the heading and list */
+    margin: 0 0 10px; 
 }
 
 .education-left ul, .education-right ul {
@@ -94,6 +94,20 @@ section h2 {
     margin: 0;
 }
 
+#hobbies-list {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#left-column,
+#middle-column,
+#right-column {
+    max-width: 100%;
+    flex: 1;
+}
 footer,
 #contact,
 #footer-heading {
