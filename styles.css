@@ -43,12 +43,12 @@ section h2 {
     margin: 0;
 }
 
-.about-me img {
+
+.profile-picture {
     float: left;
     margin-right: 20px;
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
 }
 
 .horizontal-list {
