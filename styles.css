@@ -28,6 +28,9 @@ body {
     margin: 0;
 }
 
+p {
+    margin-left: 5px;
+}
 section {
     background-color: #faf7f2;
     padding: 0;
