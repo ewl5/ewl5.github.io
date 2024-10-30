@@ -100,7 +100,7 @@ section h2 {
 #hobbies-list {
     display: flex;
     gap: 20px;
-    padding: 20px;
+    padding: 5px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
