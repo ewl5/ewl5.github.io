@@ -94,6 +94,9 @@ section h2 {
     margin: 0;
 }
 
+.education-right {
+    margin-top: 10px;
+}
 #hobbies-list {
     display: flex;
     gap: 20px;
@@ -117,4 +120,8 @@ footer,
     margin-bottom: 0;
     bottom: 0;
     padding: 2px
+}
+
+a {
+    color:rgb(35, 155, 211);
 }
